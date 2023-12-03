@@ -1,3 +1,5 @@
+Latest RELEASE link: https://github.com/gentlemn/reportcard/releases/tag/v0.1.0
+
 # Reportcard
 
 Welcome, This repo contains a gem that will create a ReportCard of students.
@@ -12,7 +14,7 @@ bundle exec ruby -Ilib .\bin\reportcard -f ".\marks.txt"
 ```
 
 ### Approach 2
-Download gem file and run following command:
+Download gem file from the above release link and run following command:
 ```bash
 gem install <path_to_the_gem>
 ```
