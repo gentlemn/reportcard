@@ -1,20 +1,37 @@
 # Reportcard
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/reportcard`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
-## Installation
-
-Install the gem and add to the application's Gemfile by executing:
-
-    $ bundle add reportcard
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install reportcard
+Welcome, This is a gem which will create a ReportCard of students.
 
 ## Usage
+### Approach 1
+Clone this Repo and run
+```bash
+
+bundle exec ruby -Ilib .\bin\reportcard -f ".\marks.txt"
+
+```
+
+### Approach 2
+Download gem file and run following command:
+```bash
+gem install <path_to_the_gem>
+```
+In irb
+
+```bash
+
+require 'reportcard'
+Reportcard.generate_marks_card("marks.txt")
+
+```
+
+### Approach 3
+Download Repo and run following command:
+```bash
+ruby .\lib\main.rb .\marks.txt
+```
+
+
 
 
 
