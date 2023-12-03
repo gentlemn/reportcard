@@ -1,6 +1,6 @@
 # Reportcard
 
-Welcome, This is a gem which will create a ReportCard of students.
+Welcome, This repo contains a gem that will create a ReportCard of students.
 
 ## Usage
 ### Approach 1
@@ -30,8 +30,10 @@ Download Repo and run following command:
 ```bash
 ruby .\lib\main.rb .\marks.txt
 ```
-
-
+![cap3](https://github.com/gentlemn/reportcard/blob/6c35e6c3c846683948c483ca5b434d1bef57f994/Capture2.PNG)
+![cap3](https://github.com/gentlemn/reportcard/blob/cfdef2aa62547b22b828117b611a84c767cd0379/Capture3.PNG)
+![cap2](https://github.com/gentlemn/reportcard/blob/6c35e6c3c846683948c483ca5b434d1bef57f994/Capture.PNG)
+![cap1](https://github.com/gentlemn/reportcard/blob/6c35e6c3c846683948c483ca5b434d1bef57f994/capture1.PNG)
 
 
 
