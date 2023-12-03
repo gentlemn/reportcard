@@ -1,0 +1,23 @@
+#! /usr/bin/env ruby
+# frozen_string_literal: true
+
+require "optparse"
+require "optparse/date"
+require_relative "../lib/reportcard"
+require "fileutils"
+require "json"
+require "yaml"
+
+OptionParser.new do |opts|
+  opts.banner = "Usage: reportcard [options]"
+
+  opts.on("-f [file_path]", String, "File path") do |file_path|
+    Reportcard.generate_marks_card(file_path)
+    exit
+  end
+
+  opts.on("-v", "--version", "Prints version of gem") do
+    puts Reportcard::VERSION
+    exit
+  end
+end.parse!
